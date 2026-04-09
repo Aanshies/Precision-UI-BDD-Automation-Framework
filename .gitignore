@@ -1,0 +1,30 @@
+# Logs
+logs/
+*.log
+
+# Screenshots
+screenshots/
+*.png
+*.jpg
+
+# Reports
+test-output/
+reports/
+extent-report/
+target/
+surefire-reports/
+
+# Maven
+target/
+
+# IDE files
+*.class
+*.project
+*.settings/
+*.iml
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
