@@ -16,7 +16,7 @@
 * **Framework:** Cucumber (BDD)
 * **Design Pattern:** Page Object Model (POM)
 * **Build Tool:** Maven
-* **Reporting:** Extent Reports & Log4j
+* **Reporting:** Cucumber Reports & Log4j
 
 ## Installation
 ### Prerequisites
@@ -35,7 +35,7 @@
 * Run the automation suite via the `TestRunner` class.
 * Execute via terminal using the command: `mvn test`.
 * Review execution logs in the `/logs` directory.
-* Open `extent-report.html` in your browser to view final test results.
+* Open `Cucumber-report.html` in your browser to view final test results.
 
 ## Acknowledgements
 * **Veeva Systems** for the technical challenge.
