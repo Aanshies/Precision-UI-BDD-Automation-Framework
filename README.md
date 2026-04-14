@@ -80,7 +80,9 @@ src/
 
 Run the framework using:
 
+```
 mvn clean test
+```
 
 This will execute all scenarios and generate reports in the target folder.
 
