@@ -1,8 +1,12 @@
 package com.automation.stepdefinitions;
 
+import java.time.Duration;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import com.automation.base.BaseTest;
@@ -68,11 +72,14 @@ public class SearchSteps extends BaseTest {
         
         // ✅ go to cart page
         cartPage.goToCart();
-        Thread.sleep(4000); // VERY IMPORTANT
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("nav-cart-count")));
+        
         // ✅ validate count
         log.info("Checking cart count");
         Assert.assertTrue(cartPage.isProductAdded());
         System.out.println("Cart Count: " + driver.findElement(By.id("nav-cart-count")).getText());
+        
         // ✅ validate subtotal not empty
         String subtotal = cartPage.getSubtotal();
         log.info("Subtotal value: " + subtotal);
