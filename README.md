@@ -151,7 +151,7 @@ Below are sample execution reports generated after test execution:
 ## Team Contribution
 
 * **M. Eswari:** Framework setup, Scenario 2 implementation, POM design, enhancements
-* **Teammate Name:** Framework setup, Scenario 1 implementation, reporting
+* **Ch. Sravani:** Framework setup, Scenario 1 implementation, reporting
 
 ---
 
