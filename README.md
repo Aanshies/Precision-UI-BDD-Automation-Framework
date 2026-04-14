@@ -137,9 +137,8 @@ Below are sample execution reports generated after test execution:
 
 ![Cucumber Report 2](https://github.com/user-attachments/assets/dc51001f-75a4-494a-a694-f19a10223925)
 
-![Cucumber Report(DD)](<img width="1208" height="556" alt="Image" src="https://github.com/user-attachments/assets/3fc9d44e-820b-43c1-a89a-d8c83a84ee1e" />)
+![Cucumber Report DD](https://github.com/user-attachments/assets/3fc9d44e-820b-43c1-a89a-d8c83a84ee1e)
 ---
-
 ## Key Highlights
 
 * Hybrid Framework (BDD + POM)
