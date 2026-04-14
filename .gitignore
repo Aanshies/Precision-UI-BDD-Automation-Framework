@@ -7,6 +7,19 @@ screenshots/
 *.png
 *.jpg
 
+# Screenshots (ignore general)
+screenshots/
+
+# Ignore images everywhere
+*.png
+*.jpg
+
+# ✅ BUT allow inside artifacts
+!artifacts/
+!artifacts/*.png
+!artifacts/*.jpg
+
+
 # Reports
 test-output/
 reports/
@@ -32,3 +45,4 @@ Thumbs.db
 .classpath
 .project
 /target/bin/ 
+bin/
